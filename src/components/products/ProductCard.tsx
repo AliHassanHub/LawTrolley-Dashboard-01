@@ -16,7 +16,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   stock,
 }) => {
   return (
-    <article className="w-full bg-[#F9F5FA] rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+    <article className="w-full bg-[#b489bf] rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
       {/* Mobile/List View (below md breakpoint) */}
       <div className="md:hidden flex flex-row w-full">
         <div className="relative w-[120px] h-[120px] flex flex-col items-center justify-center">
